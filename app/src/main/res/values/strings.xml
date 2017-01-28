@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">Proximity Sensor Fixer</string>
+    <string name="fix_button_text">TRY TO FIX SENSOR</string>
+    <string name="fix_text_1">Fixing service started</string>
+    <string name="fix_text_2">Finding offset value…</string>
+    <string name="fix_text_3">"Offset value found: %1$d"</string>
+    <string name="fix_text_4">Finding normal state value…</string>
+    <string name="fix_text_5">"Normal state value found: %1$d"</string>
+    <string name="fix_text_6">Getting offset + normal value sum…</string>
+    <string name="fix_text_7">"Sum value: %1$d"</string>
+    <string name="fix_text_8">Converting sum value to hexadecimal…</string>
+    <string name="fix_text_9">"Sum converted to hexadecimal: %1$s"</string>
+    <string name="fix_text_10">"Pushing '%1$s' to /efs/prox_cal"…</string>
+    <string name="fix_text_11">Hexadecimal value pushed</string>
+    <string name="fix_text_12">Changing owner of /efs/prox_cal to system:system…</string>
+    <string name="fix_text_13">Owner changed to system:system</string>
+    <string name="fix_text_14">Giving 644 permissions to /efs/prox_cal…</string>
+    <string name="fix_text_15">Permissions given</string>
+    <string name="fix_text_16">Syncing all file changes…</string>
+    <string name="fix_text_17">Syncing completed</string>
+    <string name="fix_text_18">Fixing completed, a reboot may be required</string>
+    <string name="root_required_error">\n[ERROR: This error may be caused by the lack of ROOT permissions or the fact that the manufacturer has made your device incompatible with this fix]</string>
+    <string name="first_boot_dialog_title">Information about this app</string>
+    <string name="first_boot_dialog_text">"This app ONLY fixes software related issues.\n\nIf your sensor won't become fixed, you should take your phone to the technical service.\n\nI Hope this will help."</string>
+    <string name="about">About</string>
+    <string name="donate">Donate</string>
+    <string name="about_dialog_title">@string/about</string>
+    <string name="about_dialog_text">This app is licensed under GPLv3.\n\nCheck the code at https://github.com/GrenderG/ProximitySensorFixer</string>
+    <string name="manufacturer_info">\nDevice info: \n\t\tmanufacturer: %1$s\n\t\tmodel: %2$s\n\t\tboard: %3$s\n\t\tbrand: %4$s\n\t\tdevice: %5$s\n\t\thardware: %6$s\n\n</string>
+    <string name="not_compatible_disclaimer">Keep in mind that this device may be INCOMPATIBLE with the fix</string>
+    <string name="compatible_disclaimer">This device should be COMPATIBLE with the fix</string>
+    <string name="fix_another_option">Can\'t find normal value, trying another option…</string>
+    <string name="device_not_rooted">Device not rooted</string>
+    <string name="device_not_rooted_msg">This app will not work properly without root permissions.</string>
+    <string name="continue_anyway">Continue anyway</string>
+    <string name="exit_app">Exit app</string>
+    <string name="force_recalibration_disclaimer">\n\nIMPORTANT: If this solution does not work for you, try the \'Force recalibration\' option located at the app\'s menu (top right)</string>
+    <string name="force_recalibration">Force recalibration</string>
+    <string name="recalibration_completed_msg">Recalibration completed, a reboot is required</string>
+    <string name="reboot">Reboot</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
