@@ -23,7 +23,7 @@
     <string name="first_boot_dialog_title">Information about this app</string>
     <string name="first_boot_dialog_text">"This app ONLY fixes software related issues.\n\nIf your sensor won't become fixed, you should take your phone to the technical service.\n\nI Hope this will help."</string>
     <string name="about">About</string>
-    <string name="donate">Donate</string>
+    <string name="help_the_developer_encoded">RG9uYXRl</string>
     <string name="about_dialog_title">@string/about</string>
     <string name="about_dialog_text">This app is licensed under GPLv3.\n\nCheck the code at https://github.com/GrenderG/ProximitySensorFixer</string>
     <string name="manufacturer_info">\nDevice info: \n\t\tmanufacturer: %1$s\n\t\tmodel: %2$s\n\t\tboard: %3$s\n\t\tbrand: %4$s\n\t\tdevice: %5$s\n\t\thardware: %6$s\n\n</string>
@@ -36,7 +36,7 @@
     <string name="exit_app">Exit app</string>
     <string name="force_recalibration_disclaimer">\n\nIMPORTANT: If this solution does not work for you, try the \'Force recalibration\' option located at the app\'s menu (top right)</string>
     <string name="force_recalibration">Force recalibration</string>
-    <string name="recalibration_completed_msg">Recalibration completed, a reboot is required</string>
+    <string name="recalibration_completed_msg">Recalibration completed, a reboot is required.</string>
     <string name="reboot">Reboot</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>

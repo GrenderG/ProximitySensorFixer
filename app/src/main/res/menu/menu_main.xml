@@ -10,8 +10,8 @@
         app:showAsAction="never"/>
 
     <item
-        android:id="@+id/action_donate"
-        android:title="@string/donate"
+        android:id="@+id/action_help_the_developer"
+        android:title=""
         app:showAsAction="never"/>
 
     <item

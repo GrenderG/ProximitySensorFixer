@@ -14,6 +14,7 @@ import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.text.method.ScrollingMovementMethod;
 import android.text.util.Linkify;
+import android.util.Base64;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -82,6 +83,7 @@ public class MainActivity extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        menu.findItem(R.id.action_help_the_developer).setTitle(new String(Base64.decode(getString(R.string.help_the_developer_encoded), Base64.DEFAULT)));
         return true;
     }
 
@@ -91,8 +93,8 @@ public class MainActivity extends BaseActivity {
             case R.id.action_force_recalibration:
                 forceRecalibration();
                 break;
-            case R.id.action_donate:
-                openDonateLink();
+            case R.id.action_help_the_developer:
+                openHelpTheDeveloperLink();
                 break;
             case R.id.action_about:
                 showAboutDialog();
@@ -159,8 +161,9 @@ public class MainActivity extends BaseActivity {
         }).start();
     }
 
-    private void openDonateLink() {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.PAYPAL_DONATE_LINK)));
+    private void openHelpTheDeveloperLink() {
+        // avoiding store restrictions
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(new String(Base64.decode(Constants.HELP_THE_DEVELOPER_LINK, Base64.DEFAULT)))));
     }
 
     private void showAboutDialog() {
