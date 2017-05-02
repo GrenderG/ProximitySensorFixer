@@ -32,16 +32,16 @@ import es.dmoral.proximitysensorfixer.utils.ShellUtils;
 
 /**
  * This file is part of Proximity Sensor Fix.
- *
+ * <p>
  * Proximity Sensor Fix is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or any later version.
- *
+ * <p>
  * Proximity Sensor Fix is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
+ * <p>
  * You should have received a copy of the GNU General Public License
  * along with Proximity Sensor Fix.  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -69,7 +69,7 @@ public class MainActivity extends BaseActivity {
                 } else if (intent.getAction().equals(Constants.SERVICE_ERROR_ACTION)) {
                     tvLog.setTextColor(Color.RED);
                     tvLog.setText(getString(R.string.root_required_error));
-                } else if (intent.getAction().equals(Constants.SERVICE_ENDED_ACTION)){
+                } else if (intent.getAction().equals(Constants.SERVICE_ENDED_ACTION)) {
                     buttonFix.setAlpha(1f);
                     buttonFix.setEnabled(true);
                 }

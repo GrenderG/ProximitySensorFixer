@@ -20,11 +20,11 @@
     <string name="fix_text_18">Reparación completada, puede que necesites reiniciar</string>
     <string name="root_required_error">\n[ERROR: Este error puede ser causado por la falta de permisos ROOT o el hecho de que el fabricante no haya hecho tu dispositivo compatible con esta solución]</string>
     <string name="first_boot_dialog_title">Información sobre la app</string>
-    <string name="first_boot_dialog_text">"Esta app SOLO arregla problemas de software.\n\nSi el sensor no se arregla, deberías llevar tu móvil al servicio técnico.\n\nEspero que esto te sea de ayuda."</string>
+    <string name="first_boot_dialog_text">"Esta app SOLO arregla problemas de software.\n\nSi el sensor no se arregla, deberías llevar tu móvil al servicio técnico.\n\nEspero que esto te sea de ayuda.\n\nPor favor ten en cuenta que esta solución no es compatible con todos los dispositivos, si el tuyo no se arregla sé amable y no votes negativamente la aplicación."</string>
     <string name="about">Acerca de</string>
     <string name="help_the_developer_encoded">RG9uYXI=</string>
     <string name="about_dialog_title">@string/about</string>
-    <string name="about_dialog_text">Esta app esta licenciada bajo GPLv3.\n\nPuedes encontrar el código en https://github.com/GrenderG/ProximitySensorFixer</string>
+    <string name="about_dialog_text">Esta app está licenciada bajo GPLv3.\n\nPuedes encontrar el código en https://github.com/GrenderG/ProximitySensorFixer</string>
     <string name="manufacturer_info">\nInformación del dispositivo: \n\t\tmanufacturer: %1$s\n\t\tmodel: %2$s\n\t\tboard: %3$s\n\t\tbrand: %4$s\n\t\tdevice: %5$s\n\t\thardware: %6$s\n\n</string>
     <string name="not_compatible_disclaimer">Ten en cuenta que tu dispositivo podría ser INCOMPATIBLE con la solución</string>
     <string name="compatible_disclaimer">Este dispositivo debería ser COMPATIBLE con la solución</string>
@@ -33,7 +33,7 @@
     <string name="device_not_rooted_msg">Esta app no funcionará correctamente sin permisos root.</string>
     <string name="continue_anyway">Continuar igualmente</string>
     <string name="exit_app">Salir</string>
-    <string name="force_recalibration_disclaimer">\n\nIMPORTANTE: Si esta solución no funciona para ti, prueba la opción de \'Forzar recalibrado\' del menú de la app (arriba a la derecha)</string>
+    <string name="force_recalibration_disclaimer">\n\nIMPORTANTE: Si esta solución no funciona para ti, prueba la opción de \'Forzar recalibrado\' del menú de la app (arriba a la derecha)\n\nSi quieres que cada vez que el móvil se encienda se realize un recalibrado, no desinstales la aplicación</string>
     <string name="force_recalibration">Forzar recalibrado</string>
     <string name="recalibration_completed_msg">Recalibrado completado, es necesario reiniciar.</string>
     <string name="reboot">Reiniciar</string>
