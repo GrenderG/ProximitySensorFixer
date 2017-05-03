@@ -110,6 +110,7 @@ public class ProximityFixerService extends Service {
                         sendActionBroadcast(Constants.SERVICE_ERROR_ACTION);
                     }
                 } finally {
+                    sendUpdateLogBroadcast(getString(R.string.donate_msg));
                     sendActionBroadcast(Constants.SERVICE_ENDED_ACTION);
                     stopSelf();
                 }

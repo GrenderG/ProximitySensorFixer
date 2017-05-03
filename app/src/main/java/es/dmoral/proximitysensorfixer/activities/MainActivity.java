@@ -1,5 +1,6 @@
 package es.dmoral.proximitysensorfixer.activities;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -52,6 +53,7 @@ public class MainActivity extends BaseActivity {
 
     private BroadcastReceiver broadcastReceiver;
 
+    @SuppressLint("MissingSuperCall")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState, R.layout.activity_main);

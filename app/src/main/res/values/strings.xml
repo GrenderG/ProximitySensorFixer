@@ -40,4 +40,5 @@
     <string name="reboot">Reboot</string>
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
+    <string name="donate_msg">\nIf the app has been helpful, you can donate in the top right menu</string>
 </resources>

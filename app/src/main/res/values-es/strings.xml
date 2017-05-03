@@ -39,4 +39,5 @@
     <string name="reboot">Reiniciar</string>
     <string name="cancel">Cancelar</string>
     <string name="ok">Aceptar</string>
+    <string name="donate_msg">\nSi te ha servido la aplicación, puedes donar desde el menú de arriba a la derecha</string>
 </resources>
