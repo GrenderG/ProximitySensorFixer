@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R21LO82)
+
 # ProximitySensorFixer
 A fix to software related errors of the proximity sensor. (It may not work in all devices)
 
